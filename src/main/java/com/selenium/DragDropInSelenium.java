@@ -19,8 +19,8 @@ public class DragDropInSelenium {
 		
 		// First step set the driver location
 		//For Window user
-		//System.setProperty("webdriver.chrome.driver", "D://Drivers//chromedriver_win32//chromedriver.exe.exe");
-		System.setProperty("webdriver.chrome.driver", "D://Drivers//chromedriver_win32//chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C://Users//91939//drivers//chromedriver.exe.exe");
+		System.setProperty("webdriver.chrome.driver", "C://Users//91939//drivers//chromedriver.exe");
 		// Create Object of driver.
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

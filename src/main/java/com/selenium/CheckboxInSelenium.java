@@ -16,12 +16,12 @@ public class CheckboxInSelenium {
 
 		// First step set the driver location
 		// For Window user
-		// System.setProperty("webdriver.chrome.driver", "D://Drivers//chromedriver_win32//chromedriver.exe.exe");
+		// System.setProperty("webdriver.chrome.driver", "C://Users//91939//drivers//chromedriver.exe.exe");
 		
 		System.setProperty("webdriver.chrome.driver", "C://Users//91939//drivers//chromedriver.exe");
 		// create chrome object	
 		driver = new ChromeDriver();
-		// navigate to site
+		// navigate to site:
 		driver.get("http://my.monsterindia.com/create_account.html?");
 		// An implicit wait tells WebDriver to poll the DOM for a certain amount of time when trying to find an element
 		// or elements if they are not immediately available.
